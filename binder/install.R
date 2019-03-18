@@ -2,6 +2,9 @@
 
 install.packages("reticulate") # python support in RMarkdown
 install.packages("ggplot2") # for plotting
+install.packages("data.table")
+install.packages("magrittr")
+install.packages("dplyr")
 install.packages(c("rmarkdown", "caTools", "bitops")) # for knitting
 
 ### install bioconductor packages
